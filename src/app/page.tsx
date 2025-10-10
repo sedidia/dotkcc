@@ -34,7 +34,7 @@ function App() {
     <div>
       <h1>LA DOT KCC</h1>
       <Link href="/news">
-        <button>Voir les utilisateurs</button>
+        <button>Cliquer pour voir les utilisateurs</button>
       </Link>
       <h1>LA DOT KCC</h1>
       <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Nom" />

@@ -25,5 +25,12 @@
     "prisma": "^6.17.0",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": 
+  {
+    "files": ["src/generated/**/*.js"],
+    "rules": {
+      "@typescript-eslint/no-require-imports": "off"
+    }
   }
 }
